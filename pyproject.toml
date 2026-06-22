@@ -28,6 +28,7 @@ dependencies = [
   "tqdm",
   "typer",
   "rich",
+  "hydra-core",
 ]
 
 [project.scripts]
@@ -37,7 +38,6 @@ swm = "stable_worldmodel.cli:app"
 train = [
     "transformers>=4.50.0",
     "stable-pretraining>=0.1.7",
-    "hydra-core",
     "hydra-submitit-launcher",
     "wandb",
 ]
